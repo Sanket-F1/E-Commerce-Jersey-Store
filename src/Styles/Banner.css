@@ -1,0 +1,70 @@
+
+.banner {
+    height: 100vh;
+    display: flex;
+   
+
+    /* background-color: #FAD961;
+    background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%); */
+
+    background-image:url(../Assets/banner4.jpg);
+    background-size: cover;
+    height: 74vh;
+    width: 100%;
+  
+}
+
+
+
+.banner-content {
+   /* flex: 1;
+   display: inline-block ;
+   flex-direction: column;
+   justify-content :center;
+   align-items: center; 
+
+  background-color: #F7DCB9; */
+  position :sticky;
+  margin: 4% 0 0 4%;
+  border-radius: 50px;
+  padding: 20px;
+  width: 400px;
+  height: 400px;
+  background-image: url(../Assets/banner6.jpg);
+  background-size:cover;
+  
+ 
+
+}
+
+.banner a {
+ text-decoration: none;
+}
+
+.banner .btn {
+  
+   margin : 60% 0 0 33% ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 0.6rem ;
+  background-color:var(--orange);
+  color: var(--white);
+  text-decoration: none;
+  border-radius :0.6rem ;
+  box-shadow:0  0.2rem 0.4rem #171717 ;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  border: 0.2rem solid transparent;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+ .banner .btn:active {
+  background-color: white ;
+  transition : 0.1s ease-in;
+  color: var(--orange);
+
+} 

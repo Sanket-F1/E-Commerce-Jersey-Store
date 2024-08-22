@@ -1,0 +1,36 @@
+.new-collection {
+    color: var(--black);
+    display: flex;
+    /* flex-wrap:wrap; */
+   
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 100px;
+    
+  }
+  
+  
+  .new-collection h1 {
+      color: var(--blue);
+      font-size: 50px;
+      font-weight: 600;
+      word-spacing: 8px;
+  }
+  
+  .new-collection hr {
+      width: 200px;
+      height: 6px;
+      /* border-radius: 10px; */
+      background-color: black;
+  }
+   
+  .collection {
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+    
+  
+  }

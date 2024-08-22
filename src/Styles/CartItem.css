@@ -1,0 +1,146 @@
+.cartitems {
+    margin: 40px 170px;
+}
+.hrr {
+    height: 3px;
+    background:#9b9a9a ;
+    border: 0;
+}
+
+ hr {
+    height: 3px;
+    background:#e2e2e2;
+    border: 0;
+}
+
+.main-format {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 75px;
+  padding: 10px 0px;
+  color: var(--black);
+  font-size: 17px;
+  font-weight: 600;
+
+}
+
+.cart-items-format {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.product-icon {
+    height: 65px;
+}
+
+.product-quantity {
+ width: 44px;
+ height: 30px;
+ background: var(--white);
+ color: var(--black);
+ border: 1px solid var(--black);
+ align-items: center;
+ margin: 0px 55px ;
+
+}
+
+.closeicon {
+    margin: 0px 55px ;
+}
+/* -------------------------------- */
+
+.cart-items-down {
+ display: flex;
+ margin: 100px 0px;
+ color: var(--black);
+}
+
+.total-cart-items {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right:200px ;
+    gap: 40px;
+}
+
+.total-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+
+.total-items p {
+    margin: 0px;
+}
+.total-cart-items h1 {
+ text-align: start;
+ font-weight: 500;
+ margin-top: 0%;
+}
+
+.total-cart-items button {
+    width: 250px;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--white);
+    background: #e22525;
+    cursor: pointer;
+}
+
+.total-cart-items button:active {
+    background: var(--white);
+    color: #e22525;
+    transition: 0.3s;
+}
+
+.promo-code {
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.promo-code p {
+    text-align: start;
+}
+
+.promo-box {
+    width: 427px;
+    height: 50px;
+    margin-top: 15px;
+    padding-left: 15px;
+    background: #eaeaea;
+
+}
+
+
+.promo-box input {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    height: 50px;
+    width: 330px;
+}
+
+.promo-box button {
+    width: 90px;
+    height: 50px;
+    background: var(--black);
+    cursor: pointer;
+    font-size: 16px;
+    color: var(--white);
+
+}
+
+.promo-valid {
+    color: rgb(4, 189, 4);
+}
+
+.promo-invalid {
+    color:#d40808;
+}

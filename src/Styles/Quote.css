@@ -1,0 +1,17 @@
+.slogan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue);
+    width: 100%;
+    color: var(--white);
+  }
+  
+  .slogan :first-child {
+    margin-right: 50px;
+    font-size: 20px;
+  }
+
+  .slogan .author {
+    padding-top: 21px;
+  }
